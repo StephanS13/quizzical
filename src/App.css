@@ -20,21 +20,30 @@
   z-index: 0;
 }
 
+/* START PAGE */
+.main-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
 /* QUIZ PAGE */
 .questions__container {
-  height: 100vh;
-  padding: 100px;
+  /* height: 100vh; */
+  min-width: 550px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
 }
 
 .question__wrapper {
-  min-width: 400px;
-  max-width: 600px;
+  width: 500px;
   border-bottom: solid 1px #29326431;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
 }
 
 .answer__wrapper {
@@ -54,3 +63,4 @@
 .answer__wrapper span:hover {
   background-color: #D6DBF5;
 }
+

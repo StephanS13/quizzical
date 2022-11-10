@@ -1,5 +1,4 @@
 import React from 'react'
-import "./start-page.css"
 
 export default function StartPage(props) {
   return (
@@ -7,7 +6,7 @@ export default function StartPage(props) {
       <div className='main-container'>
         <h1>Quizzical</h1>
         <p>Let's challenge your general knowledge!</p>
-        <button onClick={props.startQuiz}>Start quiz</button>
+        <button onClick={props.startQuiz} >Start quiz</button>
       </div>
     </>
   )
